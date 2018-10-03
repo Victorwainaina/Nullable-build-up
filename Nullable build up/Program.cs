@@ -37,7 +37,7 @@ namespace Nullable_build_up
         private static (double?, double?, double?, double?, double?, double?)? Exam()
         {
             double? unit1 = 10;
-            double? unit2 = 10;
+            double? unit2 = null;
             double? unit3 = 10;
             double? unit4 = 10;
             double? unit5 = 10;
