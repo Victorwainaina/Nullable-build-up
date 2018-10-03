@@ -2,7 +2,7 @@
 
 namespace Nullable_build_up
 {
-    internal class Program
+    internal static class Program
     {
         private static void Main()
         {
@@ -17,7 +17,7 @@ namespace Nullable_build_up
             Console.ReadKey();
         }
 
-        public static (double?, double?, double?)? Cats()
+        private static (double?, double?, double?)? Cats()
         {
             double? cat1 = 5;
             double? cat2 = 5;
@@ -26,7 +26,7 @@ namespace Nullable_build_up
             return (cat1, cat2, cat3);
         }
 
-        public static (double?, double?, double?)? Labs()
+        private static (double?, double?, double?)? Labs()
         {
             double? lab1 = 5;
             double? lab2 = 5;
@@ -34,7 +34,7 @@ namespace Nullable_build_up
             return (lab1, lab2, lab3);
         }
 
-        public static (double?, double?, double?, double?, double?, double?)? Exam()
+        private static (double?, double?, double?, double?, double?, double?)? Exam()
         {
             double? unit1 = 10;
             double? unit2 = 10;
